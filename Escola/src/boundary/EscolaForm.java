@@ -26,6 +26,7 @@ public class EscolaForm implements ActionListener {
 	private JButton btnAdicionar = new JButton("Adicionar");
 	private JButton btnPesquisar = new JButton("Pesquisar");
 	private EscolaControl control = new EscolaControl();
+	
 	public EscolaForm() { 
 		janela = new JFrame("Gestão de Escolas");
 		JPanel panPrincipal = new JPanel( new GridLayout(6, 2) );
