@@ -39,7 +39,7 @@ public class EscolaForm implements ActionListener, ListSelectionListener, TableM
 	private EscolaControl control = new EscolaControl();
 	private JTable tabela;
 	public EscolaForm() { 
-		janela = new JFrame("Gest„o de Escolas");
+		janela = new JFrame("Gestão de Escolas");
 		JPanel panPrincipal = new JPanel( new BorderLayout() ); 
 		JPanel panFormulario = new JPanel( new GridLayout(6, 2) );
 		JScrollPane panTable = new JScrollPane();
