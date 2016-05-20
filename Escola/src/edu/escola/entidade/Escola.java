@@ -1,9 +1,9 @@
-package entity;
+package edu.escola.entidade;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class Escola {
-
+	
 	private long id;
 	private String nome;
 	private int qtdProfessores;
@@ -41,7 +41,7 @@ public class Escola {
 	public Date getInicioAulas() {
 		return inicioAulas;
 	}
-	public void setInicioAulas(java.util.Date date) {
-		this.inicioAulas = (Date) date;
+	public void setInicioAulas(Date inicioAulas) {
+		this.inicioAulas = inicioAulas;
 	}
 }
