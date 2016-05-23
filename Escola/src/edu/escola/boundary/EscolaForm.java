@@ -40,6 +40,7 @@ public class EscolaForm implements ActionListener, ListSelectionListener, TableM
 	private JTable tabela;
 	public EscolaForm() { 
 		janela = new JFrame("Gestão de Escolas");
+		
 		JPanel panPrincipal = new JPanel( new BorderLayout() ); 
 		JPanel panFormulario = new JPanel( new GridLayout(6, 2) );
 		JScrollPane panTable = new JScrollPane();
@@ -83,7 +84,9 @@ public class EscolaForm implements ActionListener, ListSelectionListener, TableM
 		btnPesquisar.addActionListener( this );
 		
 		janela.setContentPane( panPrincipal );
-		janela.setSize( 400, 200 );
+		janela.setResizable(false);
+		janela.setSize( 800, 600 );
+		janela.setLocationRelativeTo(null);
 		janela.setVisible( true );
 		janela.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 	}
